@@ -18,64 +18,21 @@ a:hover {
 	color: #FF9ADD;
 }
 img {
-	width: 400px;
+	width: 30%;
+	float: right;
+	padding: 20px 20px 20px 20px;
 }
-.navbar {
-	overflow: hidden;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	font-size: 28px;
-	font-weight: 400;
-	padding: 10px 0px 10px 0px;
-	text-align: left;
-	float: left;
-	background: #30056E;
-	z-index: 1;
-}
-.navbar-text {
-	padding: 0px 0px 0px 20px;
-}
-.navbar a {
-	padding: 0px 20px 0px 0px;
-	text-decoration: none;
-	float: left;
-	text-align: left;
-	font-weight: 800;
-	font-size: 28px;
-}
-.navbar img {
-	padding: 0px 10px 0px 10px;
-	float: left;
-}
-.main {
-	margin-top: 60px;
-	margin-bottom: 60px;
+iframe {
+	padding: 20px 20px 20px 0px;
+	width: 560px;
+	height: 315px;
 }
 .footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background: #30056E;
-	padding: 10px 20px 10px 20px;
-	text-align: left;
 	font-size: 12px;
-	font-weight: 400;
-	color: #FF9ADD;
-}
-.title {
-	font-size: 60px;
-	font-weight: 800;
+	padding: 60px 0px 0px 0px;
 }
 h1 {
 	font-size: 28px;
-}
-audio {
-	width: 100%;
-	height: 20px;
-	display: block;
 }
 .column {
 	float: left;
@@ -91,5 +48,19 @@ audio {
 @media screen and (max-width: 600px) {
 	.column {
 		width: 100%;
+	}
+	img {
+		width: 50%;
+		float: left;
+		display: inline-block;
+		padding: 20px 20px 20px 0px;
+	}
+	iframe {
+		width: 448px;
+		height: 252px;
+		padding: 20px 20px 20px 0px;
+	}
+	.footer {
+		padding: 20px 0px 0px 0px;
 	}
 }
