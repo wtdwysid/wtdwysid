@@ -53,13 +53,13 @@ h1 {
 		font-size: 22px;
 	}
 	img {
-		width: 448px;
+		width: 90%;
 		float: none;
 		display: block;
-		padding: 20px 20px 20px 0px;
+		padding: 0px 0px 0px 0px;
 	}
 	iframe {
-		width: 448px;
+		width: 90%;
 		height: 252px;
 		padding: 20px 20px 20px 0px;
 	}
