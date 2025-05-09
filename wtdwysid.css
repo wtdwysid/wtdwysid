@@ -26,6 +26,7 @@ iframe {
 	padding: 20px 20px 20px 0px;
 	width: 560px;
 	height: 315px;
+	float: left;
 }
 .footer {
 	font-size: 12px;
